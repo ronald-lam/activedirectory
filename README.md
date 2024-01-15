@@ -33,3 +33,23 @@ as the server for my dc. My domain name is <strong>mydomain</strong>.
   via a phone call or email will I uncheck this box. Sometimes, this is a recommended action for security purposes. 
 </p>
 <img src="https://i.imgur.com/WAeXFZy.png" height="80%" width="80%" alt="Confirm new user"/>
+
+<hr />
+<h3>Creating a new group</h3>
+<p>To create a new group, right-click and hover over new, then user.</p>
+<img src="https://i.imgur.com/c6QehFN.png" height="80%" width="80%" alt="Create new group"/>
+<img src="https://i.imgur.com/SYeSrkT.png" height="80%" width="80%" alt="Input group info"/>
+<img src="https://i.imgur.com/GRv6anb.png" height="80%" width="80%" alt="Confirm"/>
+<p>
+<strong>Security Groups Type</strong>(not to be confused with the name of the group, Security) are used to manage access to resources and users added to a 
+security group will inherit permissions assigned to that group.
+</p>
+<p>The other type of group are <strong>Distribution Groups</strong>. They are used for email distributions. When an email is sent to a distribution group, it's delivered to all members of the group. </p>
+<p>The <strong>Domain Local scope</strong> provide access to resources within a specific domain. They can contain users, groups, and computers from any domain in the same forest but are used for assigning permissions within the domain where they are created. Think of these as keys to specific rooms in a house. They decide who can enter and access different rooms within the house (domain).</p>
+<p>
+  <strong>Global scope</strong> are used to organize and manage users and computers from the same domain. They can be members of domain local groups and can have permissions assigned within their own domain.
+  Imagine these as groups of friends within the same city. They help organize and manage people within the city but don't have keys to specific rooms in the house.
+</p>
+<p>
+  <strong>Universal scope</strong> are used to manage users and computers across different domains in a forest. They can contain members from any domain in the forest and can have permissions assigned in any domain. Universal groups are useful in multi-domain or multi-forest environments.  Picture these as VIP passes that work in multiple cities. They allow access to rooms (resources) across different houses (domains) in a larger region (forest).
+</p>
