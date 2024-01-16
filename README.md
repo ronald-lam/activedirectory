@@ -53,3 +53,19 @@ security group will inherit permissions assigned to that group.
 <p>
   <strong>Universal scope</strong> are used to manage users and computers across different domains in a forest. They can contain members from any domain in the forest and can have permissions assigned in any domain. Universal groups are useful in multi-domain or multi-forest environments.  Picture these as VIP passes that work in multiple cities. They allow access to rooms (resources) across different houses (domains) in a larger region (forest).
 </p>
+
+<hr />
+<h3>Changing a user's password</h3>
+<p>Sometimes, a user may forget their password and needs to reset their password. As an admin, you can give the user a new, temporary password to login, then have them make a new password for themselves.</p>
+<img src="https://i.imgur.com/MQtJ4S8.png" height="80%" width="80%" alt="Look for this icon"/>
+<p>Look for this icon circled in red</p>
+<img src="https://i.imgur.com/PIgKDnp.png" height="80%" width="80%" alt="Narrow the search"/>
+<p>You can widen the scope of the search by selecting "Entire Directory". This will search for users all throughout your entire domain.</p>
+<img src="https://i.imgur.com/tFBraUi.png" height="80%" width="80%" alt="Right-click then reset"/>
+<p>Right click on a user's name, then click"Reset Password".</p>
+<img src="https://i.imgur.com/RRdz4gW.png" height="80%" width="80%" alt="Reset password"/>
+<p>Clicking on the change password at next logon checkbox should always be done since no one else including admins shouldn't know the users password.</p>
+<img src="https://i.imgur.com/GCwDFBZ.png" height="80%" width="80%" alt="Try logging in as user"/>
+<p>Let's confirm if the user can login with the new temporary password by logging in as the user.</p>
+<img src="https://i.imgur.com/4bktk8i.png" height="80%" width="80%" alt="User changes password"/>
+<img src="https://i.imgur.com/ekxfGti.png" height="80%" width="80%" alt="Password change confirmed"/>
