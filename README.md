@@ -69,3 +69,19 @@ security group will inherit permissions assigned to that group.
 <p>Let's confirm if the user can login with the new temporary password by logging in as the user.</p>
 <img src="https://i.imgur.com/4bktk8i.png" height="80%" width="80%" alt="User changes password"/>
 <img src="https://i.imgur.com/ekxfGti.png" height="80%" width="80%" alt="Password change confirmed"/>
+
+<hr />
+<h3>Adding/Removing a user to a group</h3>
+<p>To add a user to a group, find and right-click on the name of the user you want to add.</p>
+<img src="https://i.imgur.com/Y0XEEiG.png" height="80%" width="80%" alt="Find and right-click user"/>
+<img src="https://i.imgur.com/7T65XPU.png" height="80%" width="80%" alt="Narrow search"/>
+<p>Make sure to change the location parameter to your domain and objects parameter to group if needed.</p>
+<p>Type the name of the group you want to add and then click "Check Names".</p>
+<img src="https://i.imgur.com/frmWgoA.png" height="80%" width="80%" alt="Confirm popup"/>
+<img src="https://i.imgur.com/sYkDbhF.png" height="80%" width="80%" alt="Check if user is added"/>
+<p>You can check to see if the user is added by double-clicking on the user's name or right-clicking the name and then Properties.</p>
+<img src="https://i.imgur.com/A6Kcrn6.png" height="80%" width="80%" alt="Click Member Of"/>
+<p>Click on the member of tab and see if the user was added to the group you chose earlier.</p>
+<img src="https://i.imgur.com/pAL1mmS.png" height="80%" width="80%" alt="Remove user"/>
+<p>To remove a user from the group, select group name and then click the remove button.</p>
+<img src="https://i.imgur.com/LzXK0GP.png" height="80%" width="80%" alt="Check to see if user is removed"/>
